@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://after-hype.github.io/sitemap.xml
