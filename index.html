@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#08090c" />
+    <meta
+      name="description"
+      content="AfterHype creates thoughtful mobile apps and digital experiences."
+    />
+    <title>Home | AfterHype</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="icon" type="image/png" href="/assets/ah-logo.png" />
+    <link rel="apple-touch-icon" href="/assets/ah-logo.png" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/index.html"
+          ><img
+            src="/assets/ah-logo.png"
+            alt="AfterHype monogram"
+            onerror="this.style.display = 'none'"
+          /><span>AfterHype</span></a
+        >
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          MENU
+        </button>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="/index.html">HOME</a><a href="/index.html#apps">APPS</a
+          ><a href="/index.html#about">ABOUT ME</a
+          ><a href="/index.html#contact">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="eyebrow">Independent app development</div>
+            <h1>Ideas built<br />with <span>purpose.</span></h1>
+            <p class="lead">
+              AfterHype creates practical, thoughtfully designed applications
+              that make everyday tasks simpler. We believe great software should
+              feel clear, useful and effortless.
+            </p>
+            <div class="actions">
+              <a class="btn primary" href="#apps">Explore our apps</a
+              ><a class="btn secondary" href="#about">Discover AfterHype</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="apps">
+        <div class="container">
+          <div class="section-head">
+            <div class="eyebrow">What we're building</div>
+            <h2>Apps made for everyday life.</h2>
+            <p class="muted">
+              Explore our applications, learn what they do and find their
+              official Google Play download pages.
+            </p>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <div class="app-icon">
+                <img
+                  src="/assets/Attendance/attendance-tracker-logo.png"
+                  alt="Attendance Tracker app logo"
+                />
+              </div>
+              <br />
+              <h3>Attendance Tracker</h3>
+              <p>
+                Keep track of attendance, review your calendar and understand
+                how many classes you need to attend to reach your target.
+              </p>
+              <a class="text-link" href="/apps/attendance-tracker/"
+                >Discover the app →</a
+              >
+            </article>
+            <article class="card">
+              <div class="symbol">+</div>
+              <h3>More coming soon</h3>
+              <p>
+                We are always exploring useful ideas and building tools that
+                solve real, everyday problems.
+              </p>
+              <span class="text-link">Stay tuned</span>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="about">
+        <div class="container split">
+          <div>
+            <div class="eyebrow">The brand</div>
+            <h2>Technology should feel human.</h2>
+            <p class="muted">
+              AfterHype is an independent app development brand focused on
+              creating clean, accessible and useful digital products. From the
+              first idea to the final detail, our aim is to put usability first
+              and keep the experience refreshingly simple.
+            </p>
+            <p class="muted">
+              We build with curiosity, care and a commitment to continuous
+              improvement. Every app begins with a simple question: how can this
+              make someone's day a little easier?
+            </p>
+            <a class="text-link" href="/about.html">Meet the developer →</a>
+          </div>
+          <div class="monogram-panel">
+            <img
+              src="/assets/ah-logo.png"
+              alt="AfterHype monogram"
+              class="brand-mark"
+              onerror="this.style.display = 'none'"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="container split">
+          <div>
+            <div class="eyebrow">Get in touch</div>
+            <h2>We'd like to hear from you.</h2>
+            <p class="muted">
+              Have feedback, a question or an idea for a future app? Send us a
+              message. Your email application will open with your details
+              prepared for sending.
+            </p>
+            <p>
+              <a class="text-link" href="mailto:info.afterhype@gmail.com"
+                >info.afterhype@gmail.com →</a
+              >
+            </p>
+          </div>
+          <form id="contactForm">
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Your name</label
+                ><input
+                  id="name"
+                  name="name"
+                  required
+                  autocomplete="name"
+                  placeholder="Full name"
+                />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label
+                ><input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  required
+                  placeholder="Phone number"
+                />
+              </div>
+              <div class="field full">
+                <label for="email">Email address</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  autocomplete="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="field full">
+                <label for="feedback">Feedback / message</label
+                ><textarea
+                  id="feedback"
+                  name="feedback"
+                  required
+                  placeholder="Write your message..."
+                ></textarea>
+              </div>
+              <div class="field full">
+                <button class="btn primary" type="submit">Prepare email</button>
+              </div>
+            </div>
+            <p class="form-note">
+              This form does not upload or store your information. It prepares
+              an email in your default email application; you must press Send
+              there.
+            </p>
+          </form>
+        </div>
+      </section>
+      <section class="callout">
+        <div class="container callout-inner">
+          <div>
+            <div class="eyebrow">Have an idea?</div>
+            <h2 style="font-size: 2.2rem; margin: 10px 0">
+              Let's make something useful.
+            </h2>
+          </div>
+          <a class="btn secondary" href="mailto:info.afterhype@gmail.com"
+            >Contact AfterHype</a
+          >
+        </div>
+      </section>
+    </main>
+    <script>
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          const f = new FormData(this);
+          const subject = encodeURIComponent(
+            "Website enquiry from " + f.get("name"),
+          );
+          const body = encodeURIComponent(
+            "Name: " +
+              f.get("name") +
+              "\nPhone: " +
+              (f.get("phone") || "Not provided") +
+              "\nEmail: " +
+              f.get("email") +
+              "\n\nMessage:\n" +
+              f.get("feedback"),
+          );
+          window.location.href =
+            "mailto:info.afterhype@gmail.com?subject=" +
+            subject +
+            "&body=" +
+            body;
+        });
+    </script>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-brand-block">
+            <a
+              class="footer-brand-lockup"
+              href="/index.html"
+              aria-label="AfterHype home"
+            >
+              <img src="/assets/ah-logo.png" alt="AfterHype logo" />
+              <span>AfterHype</span>
+            </a>
+            <p class="footer-tagline">
+              Thoughtful digital experiences, built with purpose.
+            </p>
+            <p class="footer-developer">
+              Independent developer <span>·</span> Mohammed Amer Hussain
+            </p>
+          </div>
+          <div class="footer-links-group">
+            <div class="footer-col">
+              <h4>Explore</h4>
+              <a href="/index.html">Home</a
+              ><a href="/index.html#apps">Our apps</a
+              ><a href="/index.html#about">About me</a>
+            </div>
+            <div class="footer-col">
+              <h4>Information</h4>
+              <a href="/legal/privacy.html">Privacy policy</a
+              ><a href="/legal/terms.html">Terms &amp; conditions</a>
+            </div>
+          </div>
+          <div class="footer-connect">
+            <span class="footer-kicker">LET'S CONNECT</span>
+            <h3>Have something in mind?</h3>
+            <p>Questions, feedback or ideas are always welcome.</p>
+            <a class="footer-email" href="mailto:info.afterhype@gmail.com"
+              >info.afterhype@gmail.com <span aria-hidden="true">↗</span></a
+            >
+            <a
+              class="footer-social"
+              href="https://www.linkedin.com/in/amerhussain001/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Connect on LinkedIn <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >© <span class="current-year"></span> AfterHype. All rights
+            reserved.</span
+          ><span>Made with intention.</span>
+        </div>
+      </div>
+    </footer>
+    <script>
+      document
+        .querySelectorAll(".current-year")
+        .forEach((el) => (el.textContent = new Date().getFullYear()));
+    </script>
+  </body>
+</html>
